@@ -1,0 +1,7 @@
+projectKey=Online_Shopping
+serverUrl=http://localhost:9000/sonar
+serverVersion=10.1.0.73491
+branch=main
+dashboardUrl=http://localhost:9000/sonar/dashboard?id=Online_Shopping&branch=main
+ceTaskId=AYoCP1cBDXRjSgV6xCRo
+ceTaskUrl=http://localhost:9000/sonar/api/ce/task?id=AYoCP1cBDXRjSgV6xCRo

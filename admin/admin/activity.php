@@ -1,7 +1,7 @@
 
     <?php
 session_start();
-include("../../db.php");
+use("../../db.php");
 
 error_reporting(0);
 if(isset($_GET['action']) && $_GET['action']!="" && $_GET['action']=='delete')
@@ -24,8 +24,8 @@ else
 $page1=($page*10)-10;	
 }
 
-include "sidenav.php";
-include "topheader.php";
+use "sidenav.php";
+use "topheader.php";
 
 ?>
       <!-- End Navbar -->
@@ -35,7 +35,7 @@ include "topheader.php";
           <div class="col-md-14">
             <div class="card ">
               <div class="card-header card-header-primary">
-                <h4 class="card-title">Activity  / Page <?php echo $page;?> </h4>
+                <h4 class="card-title">Activity  / Page <?php echo htmlspecialchars($page);?> </h4>
               </div>
               <div class="card-body">
                 <div class="table-responsive ps">
