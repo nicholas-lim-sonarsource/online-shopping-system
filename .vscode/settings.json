@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "SQEE",
+        "projectKey": "org.sonarqube:sonarscanner-maven-basic"
+    }
+}
